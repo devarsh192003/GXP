@@ -1,0 +1,85 @@
+.logo{
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  background: rgba(245, 245, 245, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  z-index: 5;
+  width:100%;
+}
+
+.nav-items {
+  margin-left: 5%;
+  display: flex;
+  text-align: center;
+  width: 150%;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: green;
+  font-size: 1.1rem;
+  margin-right:3.98rem;
+  padding: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-item a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: green;
+  transform-origin: bottom right;
+  transition: transform 0.30s ease-out;
+}
+
+.nav-item a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  
+}
+@media screen and (max-width: 768px){
+  .logo{
+    height: 250%;
+    width: 250%;
+  }
+  .navbar-logo {
+    margin-right: 1%;
+  }
+  .nav-items {
+    margin-left: 25%;
+  }
+  .nav-item {
+    margin-right: 10px;
+  }
+  .nav-item a {
+    font-size: 0.5rem;
+    margin-right: 0.30rem;
+    padding: 10%;
+  }
+  .nav-item a::after {
+    height: 1px;
+  }
+}

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+.About-list {
+  list-style: circle;
+
+}
+.About {
+  margin-top: 15px;
+}
+
+.Contact {
+  margin-top: 2%;
+  margin-left: 20%;
+  background-color: white;
+  color: green;
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.title{
+ color: green ;
+}
+
+.Contents {
+  color: green;
+  margin-left: 20%;
+  margin-right: 20%;
+  word-spacing: 5px;
+  line-height: 27px;
+}
+
+hr{
+  border: #fff;
+}
+
+.Thermal{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.Thermal-list {
+  list-style:circle;
+  margin-left:6%;
+}
+
+.plane-list {
+  list-style: none;
+  
+}
+
+.dottes-list {
+  list-style: square;
+  
+}
+.contact_title{
+  color: green;
+  margin-left: 20%;
+}
+
