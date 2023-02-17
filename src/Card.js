@@ -3,7 +3,7 @@ import React from "react";
 // import diwali from "./img/diwali.jpg"
 // import h from "./img/h.jpg"
 
-function Card({ title, body, imageUrl }) {
+function Card({ title, body, imageUrl,toLink }) {
   return (
       <div className="col">
         <div className="single-card">
@@ -16,7 +16,7 @@ function Card({ title, body, imageUrl }) {
               <p>{body}</p>
               
                 
-                <a href="/" class="button">Read more</a>
+                <a href={toLink } class="button">Read more</a>
                
               
             </div>

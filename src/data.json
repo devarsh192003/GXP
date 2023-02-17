@@ -3,32 +3,38 @@
       {
         "title": "About Us",
         "imageUrl": "./img/floral.jpg",
-        "body": ""
+        "body": "",
+        "toLink":"/"
       },
       {
         "title": "Steam Sterilizer",
         "imageUrl": "./img/floral.jpg",
-        "body": ""
+        "body": "",
+        "toLink":"/CQV"
       },
       {
         "title": "Thermal Validation",
         "imageUrl": "./img/floral.jpg",
-        "body": ""
+        "body": "",
+        "toLink":"/CQV"
       },
       {
           "title": "Skids",
           "imageUrl": "./img/floral.jpg",
-          "body": ""
+          "body": "",
+          "toLink":"/CQV"
         },
         {
           "title": "CQV",
           "imageUrl": "./img/floral.jpg",
-          "body": ""
+          "body": "",
+          "toLink":"/CQV"
         },
         {
           "title": "Autoclave",
           "imageUrl": "./img/floral.jpg",
-          "body": ""
+          "body": "",
+          "toLink":"/CQV"
         }
         
       ]

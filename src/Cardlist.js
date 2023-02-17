@@ -12,6 +12,7 @@ export default class Cardlist extends Component {
               title={data.title}
               body={data.body}
               imageUrl={data.imageUrl}
+              toLink={data.toLink}
             />)
           })}
         </div>
