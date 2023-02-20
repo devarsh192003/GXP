@@ -11,24 +11,27 @@ import Process from './pages/Process';
 import TankVessel from "./pages/TankVessel"
 import GMPAutoclave from "./pages/GMPAutoclave";
 import About from "./pages/About";
+import Download from "./pages/Download";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function App()  {
   return (
     <>
     <Navbar/> 
-    <Routes> 
-          <Route exact 
-          path="/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/GMPAutoclave" element={<GMPAutoclave/>}/>
-          <Route path="/TankVessel" element={<TankVessel/>}/>
-          <Route path="/Process" element={<Process/>}/>
-          <Route path="/Thermal" element={<Thermal/>}/>
-          <Route path="/CQV" element={<CQV/>}/>
-        
-          <Route path="/Contact" element={<Contact/>}/>
-    </Routes>
+    
+      
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/GMPAutoclave" element={<GMPAutoclave />} />
+          <Route path="/TankVessel" element={<TankVessel />} />
+          <Route path="/Process" element={<Process />} />
+          <Route path="/Thermal" element={<Thermal />} />
+          <Route path="/CQV" element={<CQV />} />
+          <Route path="/Download" element={<Download/>} />
+          <Route path="/Contactus" element={<Contact/>} />
+        </Routes>
+      
     <Footer />
     </>
   )

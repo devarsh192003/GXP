@@ -1,29 +1,24 @@
 import React from "react";
-// import floral from "./img/floral.jpg";
-// import diwali from "./img/diwali.jpg"
-// import h from "./img/h.jpg"
+import { NavLink } from "react-router-dom";
 
-function Card({ title, body, imageUrl,toLink }) {
+function Card({ title, body, imageUrl, url }) {
   return (
-      <div className="col">
-        <div className="single-card">
-          <div className="image">
-            <img src={require(""+imageUrl)} alt="" />
-          </div>
-          <div className="text">
-            <div className="text-inner">
-              <h3>{title}</h3>
-              <p>{body}</p>
-              
-                
-                <a href={toLink } class="button">Read more</a>
-               
-              
-            </div>
+    <div className="col">
+      <div className="single-card">
+        <div className="image">
+          <img src={require("" + imageUrl)} alt="" />
+        </div>
+        <div className="text">
+          <div className="text-inner">
+            <h3>{title}</h3>
+            <p>{body}</p>
+            <NavLink to={url} className="button">
+              Read More
+            </NavLink>
           </div>
         </div>
       </div>
-    
+    </div>
   );
 }
 

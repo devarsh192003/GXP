@@ -3,7 +3,7 @@
   width: 100%;
 }
 .navbar {
-  background: rgba(245, 245, 245, 0.9);
+  background: rgba(245, 245, 245, 0.827);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,10 +14,10 @@
 }
 
 .nav-items {
-  margin-left: 5%;
+  margin-left: 20%;
   display: flex;
   text-align: center;
-  width: 150%;
+  width: 70%;
   justify-content: flex-end;
 }
 
@@ -30,7 +30,7 @@
   text-decoration: none;
   color: green;
   font-size: 1.1rem;
-  margin-right:3.98rem;
+  margin-right:2.25rem;
   padding: 15px;
   display: inline-block;
   position: relative;
@@ -76,7 +76,7 @@
   }
   .nav-item a {
     font-size: 0.5rem;
-    margin-right: 0.30rem;
+    margin-right: 0.25rem;
     padding: 10%;
   }
   .nav-item a::after {

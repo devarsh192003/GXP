@@ -1,41 +1,40 @@
 {
-    "data": [
-      {
-        "title": "About Us",
-        "imageUrl": "./img/floral.jpg",
-        "body": "",
-        "toLink":"/"
-      },
-      {
-        "title": "Steam Sterilizer",
-        "imageUrl": "./img/floral.jpg",
-        "body": "",
-        "toLink":"/CQV"
-      },
-      {
-        "title": "Thermal Validation",
-        "imageUrl": "./img/floral.jpg",
-        "body": "",
-        "toLink":"/CQV"
-      },
-      {
-          "title": "Skids",
-          "imageUrl": "./img/floral.jpg",
-          "body": "",
-          "toLink":"/CQV"
-        },
-        {
-          "title": "CQV",
-          "imageUrl": "./img/floral.jpg",
-          "body": "",
-          "toLink":"/CQV"
-        },
-        {
-          "title": "Autoclave",
-          "imageUrl": "./img/floral.jpg",
-          "body": "",
-          "toLink":"/CQV"
-        }
-        
-      ]
-  }
+  "data": [
+    {
+      "title": "About Us",
+      "imageUrl": "./img/floral.jpg",
+      "body": "",
+      "url": "/About"
+    },
+    {
+      "title": "Steam Sterilizer",
+      "imageUrl": "./img/floral.jpg",
+      "body": "",
+      "url": "/Process"
+    },
+    {
+      "title": "Thermal Validation",
+      "imageUrl": "./img/floral.jpg",
+      "body": "",
+      "url": "/Thermal"
+    },
+    {
+      "title": "Skids",
+      "imageUrl": "./img/floral.jpg",
+      "body": "",
+      "url": "/TankVessel"
+    },
+    {
+      "title": "CQV",
+      "imageUrl": "./img/floral.jpg",
+      "body": "",
+      "url": "/CQV"
+    },
+    {
+      "title": "Autoclave",
+      "imageUrl": "./img/floral.jpg",
+      "body": "",
+      "url": "/GMPAutoclave"
+    }
+  ]
+}
