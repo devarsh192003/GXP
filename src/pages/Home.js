@@ -4,11 +4,12 @@ import { Carousel } from "react-responsive-carousel";
 import "../Card.css";
 import Cardlist from "../Cardlist";
 import Data from '../Data2.json';
+import "../Home.css";
 
 function Home  ()  {
   return (
     <div className='Home'>
-        <div class="carousel-wrapper" style={{ marginTop: 10 }}>
+        <div class="carousel-wrapper" style={{ marginTop: 5 }}>
         <Carousel
           infiniteLoop
           autoPlay
@@ -18,43 +19,43 @@ function Home  ()  {
           showThumbs={false}
           showArrows={true}
         >
-          <div>
+          <div className="img1">
             <img
-              src={require("../img/Slide1.jpeg")} alt=''
-              style={{ height: 750, width: window.innerWidth - 50 }}
+              src={require("../img/Slide1.JPG")} alt=''
+              style={{ height: 590, width: window.innerWidth - 30 }}
             />
           </div>
-          <div>
+          <div className="img1">
             <img
-              src={require("../img/Slide2.jpeg")} alt=''
-              style={{ height: 750, width: window.innerWidth - 50 }}
+              src={require("../img/Slide2.JPG")} alt=''
+              style={{ height: 590, width: window.innerWidth - 50 }}
             />
           </div>
-          <div>
+          <div className="img1">
             <img
-              src={require("../img/Slide3.jpeg")} alt=''
-              style={{ height: 750, width: window.innerWidth - 50 }}
-            />
-
-          </div>
-          <div>
-            <img
-              src={require("../img/Slide4.jpeg")} alt=''
-              style={{ height: 750, width: window.innerWidth - 50 }}
+              src={require("../img/Slide3.JPG")} alt=''
+              style={{ height: 590, width: window.innerWidth - 50 }}
             />
 
           </div>
-          <div>
+          <div className="img1">
             <img
-              src={require("../img/Slide5.jpeg")} alt=''
-              style={{ height: 750, width: window.innerWidth - 50 }}
+              src={require("../img/Slide4.JPG")} alt=''
+              style={{ height: 590, width: window.innerWidth - 50 }}
+            />
+
+          </div>
+          <div className="img1">
+            <img
+              src={require("../img/Slide5.JPG")} alt=''
+              style={{ height: 590, width: window.innerWidth - 50 }}
             />
             
           </div>
-          <div>
+          <div className="img1">
             <img
-              src={require("../img/Slide6.jpeg")} alt=''
-              style={{ height: 750, width: window.innerWidth - 50 }}
+              src={require("../img/Slide6.JPG")} alt=''
+              style={{ height: 590, width: window.innerWidth - 50 }}
             />
             
           </div>
