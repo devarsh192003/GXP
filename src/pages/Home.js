@@ -1,70 +1,50 @@
-import React from 'react';
+import React from "react";
+import Cardlist from "../Cardlist";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import "../Card.css";
-import Cardlist from "../Cardlist";
-import Data from '../Data2.json';
-import "../Home.css";
+import "./Home.css"
 
-function Home  ()  {
+import Data from "../Data2.json"
+function Home() {
   return (
-    <div className='Home'>
-        <div class="carousel-wrapper" style={{ marginTop: 5 }}>
+    <div>
+      <div className="carousel-wrapper" style={{marginLeft:3}} >
         <Carousel
+          animationHandler= 'fade'
           infiniteLoop
           autoPlay
-          interval={2000}
+          interval={3000}
+          transitionTime={500}
           width={window.innerWidth - 20}
           dynamicHeight={true}
           showThumbs={false}
           showArrows={true}
+          showIndicators={false}
         >
           <div className="img1">
-            <img
-              src={require("../img/Slide1.JPG")} alt=''
-              style={{ height: 590, width: window.innerWidth - 30 }}
-            />
+            <img src={require("../img/Slide1.JPG")} />
           </div>
           <div className="img1">
-            <img
-              src={require("../img/Slide2.JPG")} alt=''
-              style={{ height: 590, width: window.innerWidth - 50 }}
-            />
+            <img src={require("../img/Slide2.JPG")} />
           </div>
           <div className="img1">
-            <img
-              src={require("../img/Slide3.JPG")} alt=''
-              style={{ height: 590, width: window.innerWidth - 50 }}
-            />
-
+            <img src={require("../img/Slide3.JPG")} />
           </div>
           <div className="img1">
-            <img
-              src={require("../img/Slide4.JPG")} alt=''
-              style={{ height: 590, width: window.innerWidth - 50 }}
-            />
-
+            <img src={require("../img/Slide4.JPG")} />
           </div>
           <div className="img1">
-            <img
-              src={require("../img/Slide5.JPG")} alt=''
-              style={{ height: 590, width: window.innerWidth - 50 }}
-            />
-            
+            <img src={require("../img/Slide5.JPG")} />
           </div>
           <div className="img1">
-            <img
-              src={require("../img/Slide6.JPG")} alt=''
-              style={{ height: 590, width: window.innerWidth - 50 }}
-            />
-            
+            <img src={require("../img/Slide6.JPG")} />
           </div>
         </Carousel>
-        <Cardlist />
       </div>
-        <h1 className='Contents'>Who are We?</h1>
+      <Cardlist />
       <div className='Contents'>
-        <div className='Home'>
+        <div className='Home' style={{marginTop : 50}}>
+          <h1>Who are We?</h1>
           <br/>
         <p>{Data.data2.Home.para1}</p>
         <br/>
@@ -80,10 +60,7 @@ function Home  ()  {
         </div>
       </div>
 
-    
     </div>
-    
-  )
+  );
 }
-
-export default Home
+export default Home;
