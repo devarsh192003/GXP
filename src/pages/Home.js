@@ -3,6 +3,7 @@ import Cardlist from "../Cardlist";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./Home.css"
+import "../Card.css"
 
 import Data from "../Data2.json"
 function Home() {
