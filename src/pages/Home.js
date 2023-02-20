@@ -23,22 +23,22 @@ function Home() {
           showIndicators={false}
         >
           <div className="img1">
-            <img src={require("../img/Slide1.JPG")} />
+            <img src={require("../img/Slide1.png")} />
           </div>
           <div className="img1">
-            <img src={require("../img/Slide2.JPG")} />
+            <img src={require("../img/Slide2.png")} />
           </div>
           <div className="img1">
-            <img src={require("../img/Slide3.JPG")} />
+            <img src={require("../img/Slide3.png")} />
           </div>
           <div className="img1">
-            <img src={require("../img/Slide4.JPG")} />
+            <img src={require("../img/Slide4.png")} />
           </div>
           <div className="img1">
-            <img src={require("../img/Slide5.JPG")} />
+            <img src={require("../img/Slide5.png")} />
           </div>
           <div className="img1">
-            <img src={require("../img/Slide6.JPG")} />
+            <img src={require("../img/Slide6.png")} />
           </div>
         </Carousel>
       </div>
