@@ -11,7 +11,7 @@ function Thermal () {
       <div className='Contents'>
       <p>{Data.data.Thermal.Intro1}</p>
       <p>{Data.data.Thermal.Intro2}</p>
-      <img src={process.env.PUBLIC_URL + '/thermal.jpeg'} alt="LOADING" style={{height:250,width:250,float:'right'}}/>
+      <img src={process.env.PUBLIC_URL + '/th.jpg'} alt="LOADING" style={{height:250,width:250,float:'right',marginLeft:'20%'}}/>
       <br/>
       <br/>
       <ul className='Thermal-list'>

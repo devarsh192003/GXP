@@ -19,19 +19,19 @@ export const navItems = [
   },
   {
     id: 4,
-    title: "Tank Vessel",
+    title: "CIP/SIP SKID",
     path: "./TankVessel",
     cName: "nav-item",
   },
   {
     id: 5,
-    title: "Process Equipment",
+    title: "Automation & CSV",
     path: "./Process",
     cName: "nav-item",
   },
   {
     id: 6,
-    title: "Thermal",
+    title: "Thermal Validation",
     path: "./Thermal",
     cName: "nav-item",
   },
