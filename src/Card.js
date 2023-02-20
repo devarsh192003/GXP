@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
 function Card({ title, body, imageUrl, url }) {
   return (
     <div className="col">
