@@ -2,37 +2,37 @@
   "data": [
     {
       "title": "About Us",
-      "imageUrl": "./img/floral.jpg",
+      "imageUrl": "./img/about-us-page1.png",
       "body": "",
       "url": "/About"
     },
     {
       "title": "Steam Sterilizer",
-      "imageUrl": "./img/floral.jpg",
+      "imageUrl": "./img/automation-page.png",
       "body": "",
       "url": "/Process"
     },
     {
       "title": "Thermal Validation",
-      "imageUrl": "./img/floral.jpg",
+      "imageUrl": "./img/thermal-page.png",
       "body": "",
       "url": "/Thermal"
     },
     {
       "title": "Skids",
-      "imageUrl": "./img/floral.jpg",
+      "imageUrl": "./img/skid-page.png",
       "body": "",
       "url": "/TankVessel"
     },
     {
       "title": "CQV",
-      "imageUrl": "./img/floral.jpg",
+      "imageUrl": "./img/cqv-page.png",
       "body": "",
       "url": "/CQV"
     },
     {
       "title": "Autoclave",
-      "imageUrl": "./img/floral.jpg",
+      "imageUrl": "./img/gmp-page.png",
       "body": "",
       "url": "/GMPAutoclave"
     }

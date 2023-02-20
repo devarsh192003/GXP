@@ -18,7 +18,7 @@ export default class Download extends Component {
         <>
             
         <div className='Contents' style={{marginBottom:200,marginTop:10}}><h1 style={{marginLeft:350}}>Download</h1></div>
-        <button class="button-30" onClick={onButtonClick}>Download GXP Solution brochure</button>
+        <button class="button-62" onClick={onButtonClick}>Download GXP Solution brochure</button>
         <div class="form">
       <div class="title">Welcome</div>
       <div class="subtitle">Let's create your account!</div>

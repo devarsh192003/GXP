@@ -7,7 +7,7 @@ function Card({ title, body, imageUrl, url }) {
     <div className="col">
       <div className="single-card">
         <div className="image">
-          <img src={require("" + imageUrl)} alt="" />
+          <img src={require("" + imageUrl)} alt="" style={{height:350,width:350}} />
         </div>
         <div className="text">
           <div className="text-inner">
