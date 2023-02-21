@@ -2,6 +2,8 @@ import React from 'react'
 
 function About (){
   return (
+    <>
+    <img src={process.env.PUBLIC_URL + '/Flyer.png'} alt="LOADING" className='flyer' />
     <div className='Contents'>
       <br/>
         <h1 className='About-heading'>About us</h1>
@@ -39,6 +41,7 @@ function About (){
      </ul>
      <br/>
     </div>
+    </>
   )
 }
 

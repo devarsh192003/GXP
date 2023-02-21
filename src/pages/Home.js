@@ -9,14 +9,14 @@ import Data from "../Data2.json"
 function Home() {
   return (
     <div>
-      <div className="carousel-wrapper" style={{marginLeft:3}} >
+      <div className="carousel-wrapper" >
         <Carousel
           animationHandler= 'fade'
           infiniteLoop
           autoPlay
           interval={3000}
           transitionTime={500}
-          width={window.innerWidth - 20}
+          width={window.innerWidth - 10}
           dynamicHeight={true}
           showThumbs={false}
           showArrows={true}
