@@ -44,6 +44,7 @@ const Download = () => {
   return (
     <>
       <div className="form-container">
+      <img src={process.env.PUBLIC_URL + '/Download.png'} alt="LOADING" className='flyer' />
         <div class="form">
           <div class="download-title">BROCHURE</div>
           <div class="download-subtitle">Fill Your Details</div>

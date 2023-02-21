@@ -10,6 +10,7 @@ function TankVessel() {
       <img src={process.env.PUBLIC_URL + '/cip1.png'} alt="logo" style={{height:250,width:250,marginRight:"10%"}}/>
       <img src={process.env.PUBLIC_URL + '/cip2.png'} alt="logo" style={{height:250,width:250,marginLeft:"10%"}}/>
       <br/>
+      <br/>
       <h2>{Data.data2.TankVessel.para1}</h2>
       <br/>
       <p>{Data.data2.TankVessel.Subtitle1}</p>
