@@ -11,7 +11,7 @@ function CQV () {
       <br/>
        <p>{Data.data.CQV.Content1}</p>
        <p>{Data.data.CQV.line1}</p>
-       <ul>
+       <ul className='About-list'>
        <li>{Data.data.CQV.Content2}</li>
        <li>{Data.data.CQV.Content3}</li>
        <li>{Data.data.CQV.Content4}</li>
@@ -23,10 +23,10 @@ function CQV () {
        <li>{Data.data.CQV.Content10}</li>
        <li>{Data.data.CQV.Content11}</li>
        
-       </ul>
+      
        <br/>
        <br/>
-       <ul className='dottes-list'>
+       <ul>
        <li>{Data.data.CQV.Content13}</li>
        <li>{Data.data.CQV.Content14}</li>
        <li>{Data.data.CQV.Content15}</li>
@@ -35,6 +35,7 @@ function CQV () {
        <li>{Data.data.CQV.Content18}</li>
        <li>{Data.data.CQV.Content19}</li>
        <li>{Data.data.CQV.Content20}</li>
+       </ul>
        </ul>
        <br/>
        </div>

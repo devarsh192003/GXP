@@ -9,7 +9,7 @@ function Process () {
         <br/>
         <p>{Data.data.Process.intro}</p>
         <br/>
-        <ul>
+        <ul className='About-list'>
           <li>{Data.data.Process.Content1}</li>
           <li>{Data.data.Process.Content2}</li>
           <li>{Data.data.Process.Content3}</li>
@@ -17,7 +17,7 @@ function Process () {
         <br/>
         <p>{Data.data.Process.Line1}</p>
         <br/>
-        <ul className='dottex-list'>
+        <ul className='dottes-list'>
           <li>{Data.data.Process.Content4}</li>
           <li>{Data.data.Process.Content5}</li>
           <li>{Data.data.Process.Content6}</li>
@@ -51,7 +51,7 @@ function Process () {
         <br/>
         <h2>{Data.data.Process.Subtitle2}</h2>
         <br/>
-        <ul>
+        <ul className='disc-list'>
           <li>{Data.data.Process.Content21}</li>
           <li>{Data.data.Process.Content22}</li>
           <li>{Data.data.Process.Content23}</li>
@@ -66,7 +66,7 @@ function Process () {
         <br/>
         <p>{Data.data.Process.paragrah7}</p>
         <br/>
-        <ul className='square-list'>
+        <ul className='About-list'>
           <li>{Data.data.Process.Content27}</li>
           <li>{Data.data.Process.Content28}</li>
           <li>{Data.data.Process.Content29}</li>

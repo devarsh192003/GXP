@@ -14,7 +14,7 @@ function TankVessel() {
       <br/>
       <p>{Data.data2.TankVessel.Subtitle1}</p>
       <br/>
-      <ul>
+      <ul className='disc-list'>
         
       <img src={process.env.PUBLIC_URL + '/skid.png'} alt="logo" style={{height:250,width:250,float:'right'}}/>
         <li>{Data.data2.TankVessel.Content1}</li>
@@ -33,7 +33,7 @@ function TankVessel() {
       <br/>
       <p>{Data.data2.TankVessel.para2}</p>
       <br/>
-      <ul>
+      <ul className='dottes-list'>
       <img src={process.env.PUBLIC_URL + '/processvessel.png'} alt="logo" style={{height:250,width:250,float:'right'}}/>
         <li>{Data.data2.TankVessel.Content11}</li>
         <li>{Data.data2.TankVessel.Content12}</li>
@@ -44,7 +44,7 @@ function TankVessel() {
       <h2>{Data.data2.TankVessel.Subtitle3}</h2>
       <br/>
       <p>{Data.data2.TankVessel.para3}</p>
-      <ul>
+      <ul className='disc-list'>
       
       <li>{Data.data2.TankVessel.Content16}</li>
       <li>{Data.data2.TankVessel.Content17}</li>

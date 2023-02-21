@@ -27,7 +27,7 @@ function GMPAutoclave() {
         <br />
         <h2>{Data.data2.GMPAutoclave.Subtitle5}</h2>
         <br />
-        <ul>
+        <ul className="disc-list">
           <li>{Data.data2.GMPAutoclave.Content1}</li>
           <li>{Data.data2.GMPAutoclave.Content2}</li>
           <li>{Data.data2.GMPAutoclave.Content3}</li>
@@ -63,8 +63,9 @@ function GMPAutoclave() {
           <li>{Data.data2.GMPAutoclave.para83}</li>
           <li>{Data.data2.GMPAutoclave.para84}</li>
         </ul>
+        <br/>
         <p>{Data.data2.GMPAutoclave.para9}</p>
-        <ul>
+        <ul className="disc-list">
           <li>{Data.data2.GMPAutoclave.Content10}</li>
           <li>{Data.data2.GMPAutoclave.Content11}</li>
           <li>{Data.data2.GMPAutoclave.Content12}</li>

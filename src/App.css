@@ -8,15 +8,30 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
 }
-
-.About-list {
-  list-style: circle;
-  
-}
 .About {
   margin-top: 15px;
 }
 
+.About-list {
+  list-style: circle;
+  list-style-position:inside;
+  
+}
+
+
+.About-list li{
+  text-indent: 5%;
+}
+.disc-list {
+  list-style: disc;
+  list-style-position:inside;
+  
+}
+
+
+.disc-list li{
+  text-indent: 5%;
+}
 .Contact {
   margin-top: 2%;
   margin-left: 20%;
@@ -53,12 +68,22 @@ hr{
 
 .plane-list {
   list-style: none;
-  
+  list-style-position:inside;
+  display: inline;
+}
+
+.plane-list li{
+  text-indent: 5%;
 }
 
 .dottes-list {
   list-style: square;
-  
+  list-style-position: inside;
+  word-wrap:break-word;
+}
+.dottes-list li {
+  text-indent: 5%;
+
 }
 .contact_title{
   color: green;
