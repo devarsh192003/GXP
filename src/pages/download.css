@@ -10,10 +10,10 @@
 
 .form {
     align-items: center;
-    background-color: #15172b;
+    background-color: #015447;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 500px;
+    height: 100%;
     padding: 20px;
     width: 320px;
   }
@@ -49,11 +49,11 @@
   }
   
   .input {
-    background-color: #303245;
+    background-color: whitesmoke;
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
-    color: #eee;
+    color: black;
     font-size: 18px;
     height: 100%;
     outline: 0;
@@ -62,7 +62,7 @@
   }
   
   .cut {
-    background-color: #15172b;
+    background-color: #015447;
     border-radius: 10px;
     height: 20px;
     left: 20px;
@@ -70,13 +70,13 @@
     top: -20px;
     transform: translateY(0);
     transition: transform 200ms;
-    width: 76px;
+    width: 44%;
   }
   
   .cut-short {
-    width: 50px;
+    width: 19%;
   }
-  
+
   .input:focus ~ .cut,
   .input:not(:placeholder-shown) ~ .cut {
     transform: translateY(8px);
@@ -100,15 +100,15 @@
   }
   
   .input:not(:placeholder-shown) ~ .placeholder {
-    color: #808097;
+    color: whitesmoke;
   }
   
   .input:focus ~ .placeholder {
-    color: #dc2f55;
+    color: lightgreen;
   }
   
   .submit {
-    background-color: #08d;
+    background-color: green;
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
@@ -123,6 +123,99 @@
   }
   
   .submit:active {
-    background-color: #06b;
+    background-color: yellowgreen;
   }
   
+.submit-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.buttonDownload {
+  border-width: 0;
+  text-transform:capitalize;
+  border-radius: 12px;
+	display: flex;
+  justify-content: center;
+	position: relative;
+	padding: 15px 25px;
+  
+	background-color: #4CC713;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+}
+
+.buttonDownload:hover {
+	background-color: #333;
+	color: white;
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+/* Download arrow shape */
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+  
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+	
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: #4CC713;
+}
+
+.buttonDownload:hover:after {
+	border-top-color: #4CC713;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
