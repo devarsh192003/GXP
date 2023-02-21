@@ -4,10 +4,6 @@ import Data from '../Data1.json';
 function Thermal () {
   return (
     <div classname='Thermal'>
-      <div className='title'>
-      <h1>{Data.data.Thermal.Title}</h1>
-      <h2>{Data.data.Thermal.Subtitle}</h2>
-      </div>
       <div className='Contents'>
       <p>{Data.data.Thermal.Intro1}</p>
       <p>{Data.data.Thermal.Intro2}</p>
