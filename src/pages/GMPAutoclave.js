@@ -4,8 +4,11 @@ import Data from "../Data2.json";
 function GMPAutoclave() {
   return (
     <div className="GMPAutoclave">
+     
       <img src={process.env.PUBLIC_URL + '/GMP.png'} alt="LOADING" className='flyer' />
+    
       <div className="Contents">
+        <br/>
         <p>{Data.data2.GMPAutoclave.para1}</p>
         <p>{Data.data2.GMPAutoclave.para2}</p>
         <br />
@@ -13,7 +16,9 @@ function GMPAutoclave() {
         <br />
         <img src={process.env.PUBLIC_URL + "/process.png"} alt="LOADING" />
         <br />
-        <h2>{Data.data2.GMPAutoclave.Subtitle2}</h2>
+        <br />
+        <h1>{Data.data2.GMPAutoclave.Subtitle2}</h1>
+        
         <br />
         <h2>{Data.data2.GMPAutoclave.Subtitle3}</h2>
         <br />
@@ -27,7 +32,7 @@ function GMPAutoclave() {
         <br />
         <h2>{Data.data2.GMPAutoclave.Subtitle5}</h2>
         <br />
-        <ul className="disc-list">
+        <ul>
           <li>{Data.data2.GMPAutoclave.Content1}</li>
           <li>{Data.data2.GMPAutoclave.Content2}</li>
           <li>{Data.data2.GMPAutoclave.Content3}</li>
@@ -39,6 +44,7 @@ function GMPAutoclave() {
           <li>{Data.data2.GMPAutoclave.Content9}</li>
           <br />
         </ul>
+        <br />
         <img
           src={process.env.PUBLIC_URL + "/steamsterilizerhinge.jpg"}
           alt="LOADING"
@@ -54,10 +60,13 @@ function GMPAutoclave() {
           alt="LOADING"
           style={{ height: 250, width: 250 }}
         />
-
+        <br/>
+        <br/>
+        <h2>{Data.data2.GMPAutoclave.Subtitle8}</h2>
+        <br/>
         <p>{Data.data2.GMPAutoclave.para6}</p>
         <p>{Data.data2.GMPAutoclave.para7}</p>
-        <ul className="plane-list">
+        <ul className="square-list">
           <li>{Data.data2.GMPAutoclave.para81}</li>
           <li>{Data.data2.GMPAutoclave.para82}</li>
           <li>{Data.data2.GMPAutoclave.para83}</li>
