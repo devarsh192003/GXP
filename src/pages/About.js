@@ -3,10 +3,9 @@ import React from 'react'
 function About (){
   return (
     <>
-    <img src={process.env.PUBLIC_URL + '/Flyer.png'} alt="LOADING" className='flyer' />
+    <img src={process.env.PUBLIC_URL + '/About.png'} alt="LOADING" className='flyer' />
     <div className='Contents'>
       <br/>
-        <h1 className='About-heading'>About us</h1>
         <br/>
     <p className='About-paragraph'>GXP is a leading solution provided to the life science industry
     for a wide range of sterilization<br/> and cleaning technologies and provide the

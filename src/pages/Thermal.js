@@ -4,6 +4,7 @@ import Data from '../Data1.json';
 function Thermal () {
   return (
     <div classname='Thermal'>
+      <img src={process.env.PUBLIC_URL + '/Thermal.png'} alt="LOADING" className='flyer' />
       <div className='Contents'>
       <p>{Data.data.Thermal.Intro1}</p>
       <p>{Data.data.Thermal.Intro2}</p>

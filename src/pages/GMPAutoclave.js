@@ -4,7 +4,7 @@ import Data from "../Data2.json"
 function GMPAutoclave () {
   return (
     <div className='GMPAutoclave'>
-      
+      <img src={process.env.PUBLIC_URL + '/GMP.png'} alt="LOADING" className='flyer' />
       <div className='Contents'>
       <p>{Data.data2.GMPAutoclave.para1}</p>
       <p>{Data.data2.GMPAutoclave.para2}</p>

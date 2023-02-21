@@ -29,9 +29,6 @@ body {
 .title{
  color: green ;
 }
-.Title{
-  color: green;
-}
 
 .Contents {
   color: green;
@@ -111,8 +108,7 @@ table, th, td {
 }
 
 .flyer{
-  height:40vh;
-  width:100%
-
+  height:50vh;
+  width:100%;
+  object-fit:cover
 }
-

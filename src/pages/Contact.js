@@ -4,9 +4,9 @@ import Data from "../Data1.json";
 function Contact() {
   return (
     <div>
+      <img src={process.env.PUBLIC_URL + '/Contact.png'} alt="LOADING" className='flyer' />
       <br/>
       <div className="contact_title">
-        <h1>{Data.data.contact.Title}</h1>
       </div>
       <div className="Contents">
         <p>
