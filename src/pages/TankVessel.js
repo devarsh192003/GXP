@@ -4,6 +4,7 @@ import Data from '../Data2.json'
 function TankVessel() {
   return (
     <div classname='TankVessel'>
+      <img src={process.env.PUBLIC_URL + '/CIP.png'} alt="LOADING" className='flyer' />
       <div className='Contents'>
         <br/>
       <img src={process.env.PUBLIC_URL + '/cip1.png'} alt="logo" style={{height:250,width:250,marginRight:"10%"}}/>

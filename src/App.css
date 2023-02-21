@@ -11,7 +11,7 @@ body {
 
 .About-list {
   list-style: circle;
-
+  
 }
 .About {
   margin-top: 15px;
@@ -28,9 +28,6 @@ body {
 
 .title{
  color: green ;
-}
-.Title{
-  color: green;
 }
 
 .Contents {
@@ -112,13 +109,14 @@ table, th, td {
   line-height:200%;
 }
 
-.flyer{
-  height:40vh;
-  width:100%
-
-}
 
 .table-image{
   height: 250px;
   width: 250px;
+}
+
+.flyer{
+  height:50vh;
+  width:100%;
+  object-fit:cover
 }
