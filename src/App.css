@@ -57,10 +57,7 @@ hr{
   border: #fff;
 }
 
-.Thermal{
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
+
 .Thermal-list {
   list-style:circle;
   margin-left:6%;
@@ -132,7 +129,9 @@ table, th, td {
   width: 80%;
   word-spacing: 5px;
   line-height:200%;
+  text-align: center;
 }
+
 
 
 .table-image{
