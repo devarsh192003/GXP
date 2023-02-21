@@ -1,7 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "./download.css";
-
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
@@ -44,7 +43,6 @@ const Download = () => {
   return (
     <>
       <div className="form-container">
-   
         <div class="form">
           <div class="download-title">BROCHURE</div>
           <div class="download-subtitle">Fill Your Details</div>
@@ -53,14 +51,6 @@ const Download = () => {
               <input
                 id="name"
                 type="text"
-                // {...register("name", {
-                //   required: { value: true, message: "Please enter your name" },
-                //   maxLength: {
-                //     value: 30,
-                //     message: "Please use 30 characters or less",
-                //   },
-                // })}
-
                 required
                 class="input"
                 placeholder=" "
@@ -79,9 +69,6 @@ const Download = () => {
                 type="tel"
                 name="subject"
                 pattern="[0-9]{10}"
-                // {...register("phone", {
-                //   required: true,
-                // })}
                 required
                 class="input"
                 placeholder=" "
@@ -99,12 +86,6 @@ const Download = () => {
                 id="org"
                 type="text"
                 name="organization"
-                // {...register("organization", {
-                //   required: {
-                //     value: true,
-                //     message: "Please enter name of your organization",
-                //   },
-                // })}
                 required
                 className="input"
                 placeholder=" "
@@ -122,9 +103,6 @@ const Download = () => {
                 id="email"
                 type="email"
                 name="email"
-                // {...register("email", {
-                //   required: true,
-                // })}
                 required
                 class="input"
                 placeholder=" "
