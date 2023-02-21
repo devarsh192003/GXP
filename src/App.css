@@ -29,9 +29,6 @@ body {
 .title{
  color: green ;
 }
-.Title{
-  color: green;
-}
 
 .Contents {
   color: green;
@@ -99,16 +96,21 @@ hr{
 .button-62:not([disabled]):hover {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(255, 255, 255, 0.5), .125rem .125rem 1rem rgba(90, 255, 115, 0.5);
 }
-
+.table-container{
+  display: flex;
+  justify-content: center;
+}
 table, th, td {
   border: 1px solid;
   border-color: black;
   color: green;
-  margin-left: 10%;
   width: 80%;
   word-spacing: 5px;
-  line-height: 27px;
+  line-height:200%;
 }
 
 
-
+.table-image{
+  height: 250px;
+  width: 250px;
+}

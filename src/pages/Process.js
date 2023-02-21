@@ -4,6 +4,7 @@ import Data from '../Data1.json'
 function Process () {
   return (
     <div classname='Process'>
+      <img src={process.env.PUBLIC_URL + '/Automation.png'} alt="LOADING" className='flyer' />
       <div className='Contents'>
         <br/>
         <p>{Data.data.Process.intro}</p>
