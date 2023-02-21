@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import "./download.css";
 
@@ -44,6 +44,7 @@ const Download = () => {
   return (
     <>
       <div className="form-container">
+   
         <div class="form">
           <div class="download-title">BROCHURE</div>
           <div class="download-subtitle">Fill Your Details</div>
