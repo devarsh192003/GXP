@@ -1,6 +1,15 @@
+.download{
+  display: flex;
+  justify-content: center;
+}
 
+.form-container{
+  display: flex;
+  justify-content: center;
+}
 
 .form {
+    align-items: center;
     background-color: #15172b;
     border-radius: 20px;
     box-sizing: border-box;
@@ -9,7 +18,7 @@
     width: 320px;
   }
   
-  .title {
+  .download-title {
     color: #eee;
     font-family: sans-serif;
     font-size: 36px;
@@ -17,7 +26,7 @@
     margin-top: 30px;
   }
   
-  .subtitle {
+  .download-subtitle {
     color: #eee;
     font-family: sans-serif;
     font-size: 16px;
