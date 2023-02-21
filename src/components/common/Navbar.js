@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { navItems } from "./NavItems";
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
   return (
@@ -18,7 +19,7 @@ function Navbar() {
           {
             return (
               <li key={item.id} className={item.cName}>
-                <Link to={item.path}>{item.title}</Link>
+                <HashLink to={`${item.path}#`}>{item.title}</HashLink>
               </li>
             );
           })}

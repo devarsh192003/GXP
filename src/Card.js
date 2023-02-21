@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import { HashLink } from 'react-router-hash-link';
 
 function Card({ title, body, imageUrl, url }) {
   return (
@@ -14,9 +14,9 @@ function Card({ title, body, imageUrl, url }) {
           <div className="text-inner">
             <h3>{title}</h3>
             <p>{body}</p>
-            <NavLink to={url} className="button">
+            <HashLink to={`${url}#`} className="button">
               Read More
-            </NavLink>
+            </HashLink>
           </div>
         </div>
       </div>

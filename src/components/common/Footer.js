@@ -1,9 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { NavLink } from 'react-router-dom';
-import About from './../../pages/About';
-import TankVessel from './../../pages/TankVessel';
-import GMPAutoclave from './../../pages/GMPAutoclave';
+import { HashLink } from 'react-router-hash-link';
 
 function Footer() {
   return (
@@ -19,12 +17,14 @@ function Footer() {
           </div>
 
           <div className="Links">
-            <ui className="plane-list">
-              <li><NavLink to = "/About" className="link">About</NavLink></li>
-              <li><NavLink to = "/TankVessel" className="link">TankVessel</NavLink></li>
-              <li><NavLink to = "/GMPAutoclave" className="link">GMPAutoclave</NavLink></li>
-              <li><NavLink to = "/Thermal" className="link">Thermal Validation</NavLink></li>
-              <li><NavLink to = "/Process" className="link">Process Equipment</NavLink></li>
+            <ui className="footer-link">
+            
+              <li><HashLink to = "/About#" className="link">About</HashLink></li>
+              <li><HashLink to = "/TankVessel#" className="link">TankVessel</HashLink></li>
+              <li><HashLink to = "/GMPAutoclave#" className="link">GMPAutoclave</HashLink></li>
+              <li><HashLink to =  "/Thermal#"className="link">Thermal Validation</HashLink></li>
+              <li><HashLink to = "/Process#" className="link">Process Equipment</HashLink></li>
+              
             </ui>
           </div>
         </div>
