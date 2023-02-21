@@ -4,6 +4,7 @@ import Data from'../Data1.json'
 function CQV () {
   return (
     <div classname='CQV'>
+      <img src={process.env.PUBLIC_URL + '/CQV.png'} alt="LOADING" className='flyer' />
       <div className='Contents'>
       <br/>
       <p>{Data.data.CQV.Intro}</p>
