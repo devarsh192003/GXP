@@ -44,7 +44,7 @@ function Home() {
       </div>
       <Cardlist />
       <div className='Contents'>
-        <div className='Home' style={{marginTop : 50}}>
+        <div className='Home'>
           <h1>Who are We?</h1>
           <br/>
         <p>{Data.data2.Home.para1}</p>

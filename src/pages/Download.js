@@ -43,8 +43,7 @@ const Download = () => {
   return (
 
     <>
-    <br/>
-    <br/>
+    
     <div class="download-title">DOWNLOAD COMPANY'S BROCHURE</div>
       <div className="form-container">
         <div class="form">
@@ -123,7 +122,7 @@ const Download = () => {
             </div>
             <div className="submit-container">
               <button type="submit" class="buttonDownload">
-                submit
+                download
               </button>
             </div>
           </form>
