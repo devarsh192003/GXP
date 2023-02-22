@@ -23,6 +23,7 @@ function Home() {
           showThumbs={false}
           showArrows={true}
           showIndicators={false}
+          showStatus={false}
         >
           <div className="img1">
             <img src={require("../img/Slide1.png")} />
