@@ -8,9 +8,9 @@ function About (){
       <br/>
         <br/>
     <p className='About-paragraph'>GXP is a leading solution provided to the life science industry
-    for a wide range of sterilization<br/> and cleaning technologies and provide the
-    integrated skid /manufacturing tanks /vessels mobile <br/>SIP CIP unit The technology is backed up by decades of expertise and knowledge shared
-    with<br/> process engineers, microbiologist, quality control and validation personnel.</p>
+    for a wide range of sterilization and cleaning technologies and provide the
+    integrated skid /manufacturing tanks /vessels mobile SIP CIP unit The technology is backed up by decades of expertise and knowledge shared
+    with process engineers, microbiologist, quality control and validation personnel.</p>
     <br/>
     
     <h2 className='title'>GXP Product range</h2>

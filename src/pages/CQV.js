@@ -11,7 +11,7 @@ function CQV () {
       <br/>
        <p>{Data.data.CQV.Content1}</p>
        <p>{Data.data.CQV.line1}</p>
-       <ul className='About-list'>
+       <ul className='dottes-list'>
        <li>{Data.data.CQV.Content2}</li>
        <li>{Data.data.CQV.Content3}</li>
        <li>{Data.data.CQV.Content4}</li>
