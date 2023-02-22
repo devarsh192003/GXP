@@ -14,7 +14,7 @@ function GMPAutoclave() {
         <br />
         <h2>{Data.data2.GMPAutoclave.Subtitle1}</h2>
         <br />
-        <img src={process.env.PUBLIC_URL + "/process.png"} alt="LOADING" />
+        <img className="img1"src={process.env.PUBLIC_URL + "/process.png"} alt="LOADING" />
         <br />
         <br />
         <h1>{Data.data2.GMPAutoclave.Subtitle2}</h1>

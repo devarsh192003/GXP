@@ -16,7 +16,7 @@ function Home() {
           autoPlay
           interval={3000}
           transitionTime={500}
-          width={window.innerWidth-17}
+          width={window.width}
           dynamicHeight={true}
           showThumbs={false}
           showArrows={true}

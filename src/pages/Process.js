@@ -49,7 +49,7 @@ function Process () {
         <br/>
         <p>{Data.data.Process.Content20}</p>
         <br/>
-        <img src={process.env.PUBLIC_URL + '/vmodel.png'} alt="LOADING"/>
+        <img className="img1"src={process.env.PUBLIC_URL + '/vmodel.png'} alt="LOADING"/>
         <br/>
         <h2>{Data.data.Process.Subtitle2}</h2>
         <br/>

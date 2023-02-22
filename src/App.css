@@ -140,7 +140,7 @@ table, th, td {
 }
 
 .flyer{
-  height:50vh;
+  height: 50vh;
   width:100%;
   object-fit:cover
 }
@@ -148,6 +148,10 @@ table, th, td {
 @media screen and (max-width: 768px) {
   .Contents {
     font-size: 1.1rem;
+  }
+  .flyer{
+    width: 100%;
+    height: auto;
   }
  
 }
