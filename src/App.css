@@ -153,5 +153,20 @@ table, th, td {
     width: 100%;
     height: auto;
   }
+  table, th, td {
+    border: 1px solid;
+    border-color: black;
+    color: green;
+    width: 25%;
+    word-spacing: 5px;
+    line-height:200%;
+    text-align: center;
+    font-size: 80%;
+  }
+  
+  .table-image{
+    height: 50%;
+    width: 50%;
+  }
  
 }

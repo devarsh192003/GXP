@@ -9,7 +9,9 @@ import Data from "../Data2.json"
 function Home() {
   return (
     <div>
+   
       <div className="carousel-wrapper" >
+        
         <Carousel
           animationHandler= 'fade'
           infiniteLoop
