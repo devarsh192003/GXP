@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   padding-top: 1%;
-  margin-bottom: 29vh;;
+  padding-bottom: 1%;
 }
 
 .form {
@@ -21,12 +21,10 @@
   }
   
   .download-title {
-  
     color: #10443c;
     font-family: Poppins;
     font-size: 40px;
     font-weight: 600;
-    margin-top: 30px;
     text-align: center;
 
   }

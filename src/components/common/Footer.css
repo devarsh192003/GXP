@@ -31,8 +31,8 @@
 }
 @media screen and (max-width: 768px){
   .footer {
-    padding-top: 2em;
-    margin-top: 2vh;
+    padding-top: 1.5em;
+    margin-top: 1.5vh;
   }
     hr{
       border: 2.5px;
@@ -41,11 +41,11 @@
   .footer p{
     font-size: 10px;
   }
-  .footer h4{
-    font-size: 15px;
+  .footer h3{
+    font-size: 18px;
   }
   .footer li{
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 

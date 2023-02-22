@@ -7,12 +7,11 @@ function CQV () {
       <img src={process.env.PUBLIC_URL + '/CQV.png'} alt="LOADING" className='flyer' />
       <div className='Contents'>
       <br/>
-      <p>{Data.data.CQV.Intro}</p>
+      <p>{Data.data.CQV.Intro}</p>  
       <br/>
        <p>{Data.data.CQV.Content1}</p>
        <p>{Data.data.CQV.line1}</p>
        <ul className='dottes-list'>
-       <br/>
        <li>{Data.data.CQV.Content2}</li>
        <li>{Data.data.CQV.Content3}</li>
        <li>{Data.data.CQV.Content4}</li>

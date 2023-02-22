@@ -9,18 +9,21 @@ import Data from "../Data2.json"
 function Home() {
   return (
     <div>
+   
       <div className="carousel-wrapper" >
+        
         <Carousel
           animationHandler= 'fade'
           infiniteLoop
           autoPlay
           interval={3000}
           transitionTime={500}
-          width={window.innerWidth-17}
+          width={window.width}
           dynamicHeight={true}
           showThumbs={false}
           showArrows={true}
           showIndicators={false}
+          showStatus={false}
         >
           <div className="img1">
             <img src={require("../img/Slide1.png")} />
@@ -44,7 +47,7 @@ function Home() {
       </div>
       <Cardlist />
       <div className='Contents'>
-        <div className='Home' style={{marginTop : 50}}>
+        <div className='Home'>
           <h1>Who are We?</h1>
           <br/>
         <p>{Data.data2.Home.para1}</p>
