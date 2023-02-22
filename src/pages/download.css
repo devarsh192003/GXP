@@ -20,19 +20,20 @@
   }
   
   .download-title {
-    color: #eee;
-    font-family: sans-serif;
-    font-size: 36px;
+    color: #10443c;
+    font-family: Poppins;
+    font-size: 40px;
     font-weight: 600;
     margin-top: 30px;
   }
   
   .download-subtitle {
     color: #eee;
-    font-family: sans-serif;
-    font-size: 16px;
+    font-family: Poppins;
+    font-size: 30px;
     font-weight: 600;
     margin-top: 10px;
+    text-align:center;
   }
   
   .input-container {
