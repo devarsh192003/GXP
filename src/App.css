@@ -144,3 +144,10 @@ table, th, td {
   width:100%;
   object-fit:cover
 }
+
+@media screen and (max-width: 768px) {
+  .Contents {
+    font-size: 1.1rem;
+  }
+ 
+}

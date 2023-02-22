@@ -41,10 +41,14 @@ const Download = () => {
     formState: { errors },
   } = useForm();
   return (
+
     <>
+    <br/>
+    <br/>
+    <div class="download-title">DOWNLOAD COMPANY'S BROCHURE</div>
       <div className="form-container">
         <div class="form">
-          <div class="download-title">BROCHURE</div>
+         
           <div class="download-subtitle">Fill Your Details</div>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div class="input-container ic1">
