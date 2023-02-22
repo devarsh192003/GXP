@@ -9,7 +9,9 @@ function Contact() {
       <div className="contact_title">
       </div>
       <div className="Contents">
+        <br/>
         <p>
+          <b>Address:-</b>
           {Data.data.contact.SubTitle}
           <br />
           {Data.data.contact.Address1}
@@ -22,10 +24,15 @@ function Contact() {
           <br />
           {Data.data.contact.Address5}
           <br />
+          <br/>
+          <b>Website:-</b>
           {Data.data.contact.Website}
           <br />
+          <b>Email:-</b>
+
           {Data.data.contact.Email}
           <br />
+          <b>Phone:-</b>
           {Data.data.contact.Mobile}
         </p>
       </div>

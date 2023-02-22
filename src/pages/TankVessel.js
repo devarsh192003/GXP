@@ -7,6 +7,7 @@ function TankVessel() {
       <img src={process.env.PUBLIC_URL + '/CIP.png'} alt="LOADING" className='flyer' />
       <div className='Contents'>
         <br/>
+        <br/>
       <img src={process.env.PUBLIC_URL + '/cip1.png'} alt="logo" style={{height:250,width:250,marginRight:"10%"}}/>
       <img src={process.env.PUBLIC_URL + '/cip2.png'} alt="logo" style={{height:250,width:250,marginLeft:"10%"}}/>
       <br/>
@@ -35,7 +36,7 @@ function TankVessel() {
       <p>{Data.data2.TankVessel.para2}</p>
       <br/>
       
-      <ul className='dottes-list'>
+      <ul>
       <img src={process.env.PUBLIC_URL + '/processvessel.png'} alt="logo" style={{height:250,width:250,float:'right'}}/>
         <li>{Data.data2.TankVessel.Content11}</li>
         <li>{Data.data2.TankVessel.Content12}</li>
@@ -43,6 +44,7 @@ function TankVessel() {
         <li>{Data.data2.TankVessel.Content14}</li>
         <li>{Data.data2.TankVessel.Content15}</li>
       </ul>
+      <br/>
       <h2>{Data.data2.TankVessel.Subtitle3}</h2>
       <br/>
       <p>{Data.data2.TankVessel.para3}</p>

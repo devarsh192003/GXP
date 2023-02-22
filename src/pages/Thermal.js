@@ -5,11 +5,13 @@ function Thermal () {
   return (
     <div id = "Thermalpage"className='Thermal'>
       <img src={process.env.PUBLIC_URL + '/Thermal.png'} alt="LOADING" className='flyer' />
+  
       <div className='Contents'>
+      <br/>
       <p>{Data.data.Thermal.Intro1}</p>
       <p>{Data.data.Thermal.Intro2}</p>
       <img src={process.env.PUBLIC_URL + '/th.jpg'} alt="LOADING" style={{height:250,width:250,float:'right',marginLeft:'20%'}}/>
-      <br/>
+  
       <br/>
       <ul className='Thermal-list'>
         <li>{Data.data.Thermal.Content1}</li>

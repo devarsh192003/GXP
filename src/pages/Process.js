@@ -39,15 +39,17 @@ function Process () {
         <p>{Data.data.Process.Content16}</p>
         <p>{Data.data.Process.Content17}</p>
         <br/>
-        <p>{Data.data.Process.paragraph2}</p>
+        <h3><b>Installation Qualification</b></h3><p>{Data.data.Process.paragraph2}</p>
         <br/>
-        <p>{Data.data.Process.paragraph3}</p>
+        <p><h3><b>Operational Qualification</b></h3>{Data.data.Process.paragraph3}</p>
         <br/>
-        <p>{Data.data.Process.paragraph4}</p>
+        <p><h3><b>Performance Qualification</b></h3>{Data.data.Process.paragraph4}</p>
         <br/>
         <p>{Data.data.Process.Content19}</p>
         <br/>
         <p>{Data.data.Process.Content20}</p>
+        <br/>
+        <img src={process.env.PUBLIC_URL + '/vmodel.png'} alt="LOADING"/>
         <br/>
         <h2>{Data.data.Process.Subtitle2}</h2>
         <br/>
@@ -66,6 +68,7 @@ function Process () {
         <br/>
         <p>{Data.data.Process.paragrah7}</p>
         <br/>
+  
         <ul className='About-list'>
           <li>{Data.data.Process.Content27}</li>
           <li>{Data.data.Process.Content28}</li>
