@@ -42,9 +42,11 @@ const Download = () => {
   } = useForm();
   return (
     <>
+    <br/>
+    <div class="download-title">BROCHURE</div>
       <div className="form-container">
         <div class="form">
-          <div class="download-title">BROCHURE</div>
+          
           <div class="download-subtitle">Fill Your Details</div>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div class="input-container ic1">
