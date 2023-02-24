@@ -13,10 +13,15 @@ import GMPAutoclave from "./pages/GMPAutoclave";
 import About from "./pages/About";
 import Download from "./pages/Download";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import GoToTop from "./GoToTop";
+
+
+
 
 function App()  {
   return (
     <>
+  <GoToTop/>
     <Navbar/> 
     
       
